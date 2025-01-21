@@ -1,0 +1,71 @@
+
+
+.container{
+    font-family: "Quicksand", serif;
+     font-style: normal;
+     width: 100%;
+     max-width: 90%;
+     margin: 0 auto;
+     padding: 10px 5px;
+    
+  }
+  button{
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.4rem;
+  }
+  .flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .logo{
+    width: 25%;
+    display: flex;
+  }
+  .logo img{
+    width: 50px;
+    height: 50px;
+  }
+  .nav-items{
+    display: flex;
+    gap: 1rem;
+    margin-right: 1.7rem;
+  }
+  .nav-item{
+    list-style: none;
+    
+  }
+  .nav-link{
+    text-decoration: none;
+  }
+  .nav-button{
+    background-color: orange;
+    color: white;
+  }
+
+  /* banner section  */
+  .banner-section{
+    padding: 15px 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: 1rem;
+  }
+  .banner-content{
+    width: 40%;
+   
+  }
+  .banner-img{
+    width: 40%;
+  }
+  .banner-img img{
+    width: 275px;
+    height: 270px;
+    
+  }
+  .banner-btn{
+    background-color: black;
+    color: white;
+  }
