@@ -69,3 +69,37 @@
     background-color: black;
     color: white;
   }
+
+  /* curriculum section start here  */
+.curriculum-section{
+    background: url(assets/bg.png);
+    
+}
+
+.cards{
+    gap: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+
+}
+  .curi-title{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1.5rem 0.5rem;
+  }
+  .card{
+    border-radius: 0.5rem;
+    box-shadow: 3px 3px 6px white;
+  }
+  .card{
+   background: linear-gradient(180deg,white,rgb(150, 138, 138));
+   box-shadow: ;
+  }
+  main{
+    background:linear-gradient(90deg,rgb(129, 199, 199),rgb(241, 231, 241))
+  }
+  .card button{
+    background-color: transparent;
+    color: green;
+  }
